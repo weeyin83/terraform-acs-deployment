@@ -23,7 +23,7 @@ variable "ttl_setting" {
 variable "data_location" {
   description = "The location of the email data."
   type        = string
-  default     = "UK"
+  default     = "UK" # Or use Africa, Asia Pacific, Australia, Brazil, Canada, Europe, France, Germany, India, Japan, Korea, Norway, Switzerland, UAE, UK, usgov or United States as needed. 
 }
 
 variable "custom_domain" {
